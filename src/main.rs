@@ -17,6 +17,4 @@ fn main() {
 			2 => problems::day2::execute(),
 			_ => println!("No such problem")
 		};
-
-	problems::day1::execute();
 }
