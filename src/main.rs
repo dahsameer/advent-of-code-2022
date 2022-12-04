@@ -15,6 +15,7 @@ fn main() {
 		match input_text.trim().parse::<i32>().unwrap() {
 			1 => problems::day1::execute(),
 			2 => problems::day2::execute(),
+			3 => problems::day3::execute(),
 			_ => println!("No such problem")
 		};
 }
